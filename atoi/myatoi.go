@@ -4,7 +4,7 @@ import (
 	"errors"
 	"math"
 )
-
+//MyAtoi converts string to int, if an error occurs, it returns 0, the error
 func MyAtoi(str string) (int, error) {
 	var nums []int
 	var ans int

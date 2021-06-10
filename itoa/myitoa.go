@@ -2,7 +2,7 @@ package itoa
 
 import "github.com/yerkesh/onelab_hw3/reverse"
 
-//itoa converts integer value to string
+//MyItoa converts integer value to string
 func MyItoa(num int) string{
 	var res []rune
 	if num == 0 {
