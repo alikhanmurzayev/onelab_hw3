@@ -1,9 +1,6 @@
 package main
 
-import (
-	"fmt"
-	"github.com/yerkesh/onelab_hw3/runebyindex"
-)
+import "github.com/yerkesh/onelab_hw3/importsort"
 
 func main() {
 	//fmt.Println(itoa.MyItoa(5432))
@@ -12,9 +9,9 @@ func main() {
 
 	//fmt.Println(atoi.MyAtoi("569"))
 
-	var str = "defAult"
-	var index = 9
-	fmt.Println(runebyindex.MyRuneByIndex(&str, &index))
+	//var str = "defAult"
+	//var index = 9
+	//fmt.Println(runebyindex.MyRuneByIndex(&str, &index))
 
 	//fibSeq := fibonacci.Fibonacci()
 	//fmt.Println(fibSeq())
@@ -31,5 +28,5 @@ func main() {
 	//fmt.Println(fibSeq2())
 	//fmt.Println(fibSeq2())
 
-
+	importsort.MyImportSort("testfile.go")
 }
